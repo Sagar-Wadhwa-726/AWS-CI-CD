@@ -4,7 +4,7 @@ files:
   - source: /
     destination: /opt/application
 hooks:
-  BeforeInstall:
+  ApplicationStop:
     - location: scripts/stop_container.sh
       timeout: 300
       runas: root
