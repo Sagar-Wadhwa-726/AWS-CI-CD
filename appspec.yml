@@ -1,7 +1,7 @@
 version: 1.1
 os: linux
 hooks:
-  ApplicationStop:
+  BeforeInstall:
     - location: scripts/stop_container.sh
       timeout: 300
       runas: root
