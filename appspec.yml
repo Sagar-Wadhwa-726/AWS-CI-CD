@@ -1,8 +1,5 @@
 version: 1.0
 os: linux
-files:
-  - source: /
-    destination: /opt/application
     
 hooks:
   ApplicationStop:
